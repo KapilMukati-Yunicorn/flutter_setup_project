@@ -7,7 +7,7 @@ class ContactClass extends StatelessWidget{
       height: 20,
       width: MediaQuery.of(context).size.width,
       color: Colors.red,
-      child: Text("Hii"),
+      child: Text("Hii", style: TextStyle(color: Colors.blue, fontSize: 20),),
     );
   }
 }
